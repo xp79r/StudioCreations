@@ -209,26 +209,7 @@ nav{
  }
 
  
-/*main h1{
-    display:flex;
-    text-align: center;
-    color:rgb(8, 148, 8);
-    font-size: 15px;
-    margin-left: 1.8%;
-    
-}
 
-
-main h2{
-    
-    margin-top: 20px;
-    font-size:10px;
-    font-weight: 200;
-    text-align: center;
-    padding:15px 0px;
-    white-space: normal;
-}
-*/
 
 
 .titulos{
@@ -248,9 +229,9 @@ main h2{
 }
 
 article {
-    /*width: 20%;*/
+    
     margin-bottom: 20px;
-   /* margin-left: 4rem;*/
+   
     align-items: center;
 }
 
@@ -263,7 +244,7 @@ font-size: 10px;
 }
 
 article img{
-/*padding:1px;*/
+
 display: flex;
 justify-content: center;
 align-items: center;
@@ -288,7 +269,7 @@ footer p{
     font-size: 9px;
 }
 .redes img{
-    width: 1.2em;em;
+    width: 1.2em;
     
 }
    h3{
@@ -456,30 +437,12 @@ footer p{
     width:100%;
     
 }
-/*.sectionPrincipal h1 {
-background-color: red;
-display: flex;
-justify-content: center;
-text-align: center;
-color:rgb(8, 148, 8);
-font-size: 22px;
 
-}
-
-.sectionPrincipal h2{
-font-size: 15px;
-margin-top: 20px;
-font: size 10px;
-font-weight: 200;
-
-}*/
 
 
 
 main h1{
-/*display: flex;
-justify-content: center;
-text-align: center;*/
+
 color:rgb(8, 148, 8);
 font-size: 20px;
 
@@ -508,14 +471,7 @@ article {
     
     
 }
-/*.titulos h1{
-    font-size: 22px;
-    
-}*/
-/*.titulos h2{
-    font-size: 15px;
-    
-}*/
+
 
 article img{
 display: flex;
@@ -535,26 +491,7 @@ margin:10px 5px 10px -12px;
 
 }
 
-/*.imgDiseño{
-    margin-top: 18px;
-    background-color: yellow; 
-}
 
-.imgTiendaVirtual{
-    margin-top: 18px;
-    background-color: yellow; 
-
-}
-
-.imgMarketingDigital {
-    width: 100%;
-    margin-top: 22px;
-    background-color: yellow;
-}
-
-.imgMarketingDigital h2{
-    text-overflow: hidden;
-}*/
 footer p{
     font-size: 14px;
 }
@@ -574,7 +511,7 @@ footer p{
 
 /**************************************************/
 
-@media(min-width:1025px) /*and (max-width:1145)*/{
+@media(min-width:1025px) {
 
     header img{
         width: 220px;
@@ -603,9 +540,7 @@ footer p{
 
 
     main h1{
-        /*display: flex;
-        justify-content: center;
-        text-align: center;*/
+       
         color:rgb(8, 148, 8);
         font-size: 25px;
         
@@ -704,7 +639,7 @@ footer p{
 
 
 
-@media(min-width:1147px) /*and (min-width:1280)*/{
+@media(min-width:1147px) {
 
     header img{
         width: 350px;
@@ -733,9 +668,7 @@ footer p{
 
 
     main h1{
-        /*display: flex;
-        justify-content: center;
-        text-align: center;*/
+        
         color:rgb(8, 148, 8);
         font-size: 50px;
     
@@ -863,4 +796,3 @@ footer p{
 
 
 
-}

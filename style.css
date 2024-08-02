@@ -1,0 +1,866 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*max-width : 1200px;*/
+    background-color: rgb(57,116,148);
+}
+
+body{
+    border-radius: 15px;
+    margin: 10px 10%; /*Separa 10px del tope superior
+    y centra el diseño con el 10%*/
+    background-color: white;
+}
+
+
+header{
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+nav{
+    
+    background-color: rgb(4, 4,141);
+    color:white;
+    height: 2.5em;
+    
+}
+
+/*CAMBIO EL ESTILO DE LA VIÑETAS DE UL*/
+
+nav ul{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+}
+
+nav ul li{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+nav ul li:hover{
+    cursor:pointer;
+    background-color: blue;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+.sectionPrincipal{
+
+    overflow: hidden;
+    margin: 20px 15px;
+}
+
+
+.titulos{
+    width:950px;
+    margin:0 auto 50px auto;
+}
+
+
+.titulos h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+main h1{
+    text-align: center;
+    color:rgb(8, 148, 8);
+    font-size: 30px;
+}
+
+
+main h2{
+    margin-top: 20px;
+    font-size:20px;
+    text-align: center;
+}
+
+article{
+    width:32.9%;
+    display:inline-block;
+
+}
+
+
+article img{
+    padding:3px;
+    width:100%;
+    border-radius: 14px;
+}
+
+article img:hover{
+    cursor:pointer;
+    transform: scale3d(1.02,1.02,2);
+    
+}
+
+
+article h2{
+    
+    text-align: center;
+}
+
+footer{
+    display: block;
+    background-color: rgb(4, 4,141);
+    margin:0;
+    padding: 0;
+
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
+    color:yellow;
+    margin:30px,
+
+}
+
+.redes{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.redes img{
+    width:3%;
+    
+
+}
+
+.redes img:hover{
+ cursor: pointer;
+ transform: scale3d(1.02,1.02,2);
+
+}
+
+footer h3{
+    color:white;
+    text-align: center;
+}
+
+footer{
+    border-radius: 0 0 15px 15px;
+}
+
+
+/*************************************************/
+
+
+@media (min-width: 300px) {
+
+    body{
+        width: 115%;
+          
+    }
+
+    html{
+        width: 75%;
+       
+    }
+ .sectionPrincipal{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    
+ }
+
+header img{
+    width: 100px;
+       
+}
+
+nav{
+    margin:2px;
+    height:2rem ;
+    overflow: hidden;
+    
+}
+ 
+ nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    gap:2px;
+
+    
+    
+ }
+
+ 
+/*main h1{
+    display:flex;
+    text-align: center;
+    color:rgb(8, 148, 8);
+    font-size: 15px;
+    margin-left: 1.8%;
+    
+}
+
+
+main h2{
+    
+    margin-top: 20px;
+    font-size:10px;
+    font-weight: 200;
+    text-align: center;
+    padding:15px 0px;
+    white-space: normal;
+}
+*/
+
+
+.titulos{
+    width:60%;
+    margin:0 auto 50px auto;
+    font-size: 10px;
+    
+}
+.titulos h1{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    
+}
+.titulos h2{
+    font-size: 1cqb;
+}
+
+article {
+    /*width: 20%;*/
+    margin-bottom: 20px;
+   /* margin-left: 4rem;*/
+    align-items: center;
+}
+
+
+
+article h2{
+font-size: 10px;
+
+
+}
+
+article img{
+/*padding:1px;*/
+display: flex;
+justify-content: center;
+align-items: center;
+width:60%;
+border-radius: 14px;
+margin-left: 18px;
+transform:scale(1.1);
+transition: center;
+
+}
+
+
+article img:hover{
+    cursor:pointer;
+    transform: scale3d(1.02,1.02,2);
+    
+}
+
+
+
+footer p{
+    font-size: 9px;
+}
+.redes img{
+    width: 1.2em;em;
+    
+}
+   h3{
+    font-size: 8px;
+    margin:5px;
+    padding: 5px;
+   }
+
+
+   
+
+
+}
+
+
+
+
+/*****************************************************/
+
+
+@media (min-width: 600px){
+    .sectionPrincipal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:95%;
+        
+    }
+  .sectionPrincipal h1 {
+    font-size: 15px;
+  }
+
+  .sectionPrincipal h2{
+    font-size: 15px;
+  }
+
+  header img{
+    width: 150px;
+    
+}
+
+nav{
+    height:2rem ;
+}
+ 
+ nav ul {
+    font-size: 12px;
+    
+ }
+
+main h1{
+    text-align: center;
+    color:rgb(8, 148, 8);
+    font-size: 20px;
+    
+}
+
+
+main h2{
+    margin-top: 20px;
+    font: size 10px;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+
+    article {
+        width: 20%;
+        margin-bottom: 20px;
+        margin-left: 3rem;
+        align-items: center;
+    }
+
+    .titulos{
+        width:70%;
+        margin:0 auto 50px auto;
+        font-size: 10px;
+        
+    }
+    .titulos h1{
+        font-size: 18px;
+    }
+    .titulos h2{
+        font-size: 15px;
+        
+    }
+    .imgDiseño h2{
+        
+        font-size: 10px;
+    }
+
+.imgTiendaVirtual h2{
+    
+    font-size: 10px;  
+}
+
+.imgMarketingDigital h2{
+
+    font-size: 10px;
+}
+
+article img{
+    padding:1px;
+    width:100%;
+    border-radius: 10px;
+    margin-left: -15px;
+    
+    
+
+
+}
+
+article h2{
+
+    font-size:40px;
+    font-weight: 400;
+    width:75%;
+    
+}
+
+footer p{
+    font-size: 12px;
+}
+.redes img{
+    width:4%;
+    
+}
+   h3{
+    font-size: 10px;
+    margin:5px;
+    padding: 5px;
+   }
+
+
+
+}
+
+/***************************************/
+
+@media(min-width:768px) and (max-width:1024px){
+
+    header img{
+        width: 200px;
+        
+        }
+        
+        nav{
+        
+        height:2.5rem ;
+        }
+        
+        nav ul {
+        font-size: 0.9rem;
+        
+        }
+
+.sectionPrincipal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    
+}
+/*.sectionPrincipal h1 {
+background-color: red;
+display: flex;
+justify-content: center;
+text-align: center;
+color:rgb(8, 148, 8);
+font-size: 22px;
+
+}
+
+.sectionPrincipal h2{
+font-size: 15px;
+margin-top: 20px;
+font: size 10px;
+font-weight: 200;
+
+}*/
+
+
+
+main h1{
+/*display: flex;
+justify-content: center;
+text-align: center;*/
+color:rgb(8, 148, 8);
+font-size: 20px;
+
+}
+
+
+main h2{
+margin-top: 20px;
+font: size 10px;
+font-weight: 200;
+text-align: center;
+}
+
+
+
+article {
+    width: 25%;
+    margin-bottom: 20px;
+    margin-left: 3rem;
+    align-items: center;
+}
+
+.titulos{
+    width:70%;
+    margin:0 auto 50px auto;
+    
+    
+}
+/*.titulos h1{
+    font-size: 22px;
+    
+}*/
+/*.titulos h2{
+    font-size: 15px;
+    
+}*/
+
+article img{
+display: flex;
+flex-wrap: wrap;
+padding:1px;
+width:80%;
+border-radius: 14px;
+margin-bottom: 10px;
+
+}
+article h2{
+
+font-size:40px;
+font-weight: 400;
+width:75%;
+margin:10px 5px 10px -12px;
+
+}
+
+/*.imgDiseño{
+    margin-top: 18px;
+    background-color: yellow; 
+}
+
+.imgTiendaVirtual{
+    margin-top: 18px;
+    background-color: yellow; 
+
+}
+
+.imgMarketingDigital {
+    width: 100%;
+    margin-top: 22px;
+    background-color: yellow;
+}
+
+.imgMarketingDigital h2{
+    text-overflow: hidden;
+}*/
+footer p{
+    font-size: 14px;
+}
+.redes img{
+    width:4%;
+    
+}
+   h3{
+    font-size: 10px;
+    margin:5px;
+    padding: 5px;
+   }
+
+
+}
+
+
+/**************************************************/
+
+@media(min-width:1025px) /*and (max-width:1145)*/{
+
+    header img{
+        width: 220px;
+        
+        }
+        
+        nav{
+        
+        height:2.5rem ;
+        }
+        
+        nav ul {
+        font-size: 1rem;
+        
+        } 
+
+    .sectionPrincipal {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width:97%;
+        
+    }
+
+
+    main h1{
+        /*display: flex;
+        justify-content: center;
+        text-align: center;*/
+        color:rgb(8, 148, 8);
+        font-size: 25px;
+        
+        }
+        
+        
+        main h2{
+        margin-top: 20px;
+        font: size 15px;
+        font-weight: 200;
+        text-align: center;
+        
+        }
+        
+        
+        
+        article {
+            width: 25%;
+            margin-bottom: 20px;
+            margin-left: 3rem;
+            align-items: center;
+        }
+        
+        .titulos{
+            width:70%;
+            margin:0 auto 50px auto;
+            
+            
+        }
+        .titulos h1{
+            font-size: 22px;
+            
+        }
+        .titulos h2{
+            font-size: 15px;
+            
+        }
+        
+        .imgDiseño h2{
+        
+            font-size: 12px;
+            background-color:#ffffff;
+        }
+    
+    .imgTiendaVirtual h2{
+        
+        font-size: 12px;
+        background-color:#ffffff; 
+    }
+    
+    .imgMarketingDigital h2{
+    
+        font-size: 12px;
+        background-color: #ffffff;
+    }
+        article h2{
+        
+            font-size:50px;
+            font-weight:400;
+            width:75%;
+            margin:10px 5px 10px -12px;
+            background-color: yellow;
+            
+         }
+
+        article img{
+        display: flex;
+        flex-wrap: wrap;
+        padding:1px;
+        width:80%;
+        border-radius: 14px;
+        margin-bottom: 10px;
+        
+        }
+       
+     
+        footer p{
+            font-size: 14px;
+        }
+        .redes img{
+            width:5%;
+            
+        }
+           h3{
+            font-size: 10px;
+            margin:5px;
+            padding: 5px;
+           }
+        
+
+    
+        }
+
+
+/*****************************************************************/
+
+
+
+@media(min-width:1147px) /*and (min-width:1280)*/{
+
+    header img{
+        width: 350px;
+        
+        }
+        
+        nav{
+        
+        height:3rem ;
+        }
+        
+        nav ul {
+        font-size: 1.5rem;
+        
+        } 
+
+    .sectionPrincipal {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width:97%;
+        
+    }
+
+
+    main h1{
+        /*display: flex;
+        justify-content: center;
+        text-align: center;*/
+        color:rgb(8, 148, 8);
+        font-size: 50px;
+    
+        
+        }
+        
+        
+        main h2{
+        margin-top: 20px;
+        font: size 15px;
+        font-weight: 200;
+        text-align: center;
+        
+        }
+        
+        article {
+            width: 25%;
+            margin-bottom: 20px;
+            margin-left: 3rem;
+            align-items: center;
+        }
+        
+        .titulos{
+            width:80%;
+            margin:0 auto 50px auto;   
+        }
+
+        .titulos h1{
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            width: 80%;
+            margin-left: 10%;
+            
+        }
+        .titulos h2{
+            font-size: 20px;
+            width: 80%;
+            margin-left: 10%;
+        }
+        
+        .imgDiseño h2{
+        
+            font-size: 15px;
+            background-color:#ffffff;
+        }
+    
+    .imgTiendaVirtual h2{
+        
+        font-size: 15px;
+        background-color:#ffffff; 
+    }
+    
+    .imgMarketingDigital h2{
+    
+        font-size: 15px;
+        background-color: #ffffff;
+    }
+        
+    article h2{
+            width:75%;
+            margin:10px 5px 10px -12px;
+            
+            
+            }
+        
+        article img{
+        display: flex;
+        flex-wrap: wrap;
+        padding:1px;
+        width:80%;
+        border-radius: 14px;
+        margin-bottom: 18px;
+        
+        }
+       
+        
+     
+        footer p{
+            font-size: 18px;
+        }
+        .redes img{
+            width:5%;
+            
+        }
+           h3{
+            font-size: 10px;
+            margin:5px;
+            padding: 5px;
+           }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

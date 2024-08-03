@@ -1,4 +1,4 @@
-Maqueado para realizar página de desarrollo web.
+Maquetado para realizar página de desarrollo web.
 Dimensiones.
 Ancho del Contenedor Principal: 80%
 Colores:

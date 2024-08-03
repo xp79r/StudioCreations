@@ -25,3 +25,4 @@ Título h3
 Footer
 Iconos de redes sociales.
 Autor de la Página web.
+Nota algunos colores pueden haber sido cambiados según mi preferencia.
